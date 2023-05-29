@@ -1,3 +1,4 @@
+import re
 import string
 from os import path
 from typing import List, Dict
@@ -6,7 +7,6 @@ from stopwords import clean
 
 
 class TextCleaningService:
-
     @staticmethod
     def remove_punctuations(text: str) -> str:
         print("remove_punctuations - started")
@@ -23,6 +23,12 @@ class TextCleaningService:
         translating = str.maketrans('', '', string.digits)
 
         return text.translate(translating)
+
+    @staticmethod
+    def remove_single_letters(text: str) -> str:
+        print("remove_single_letters - started")
+
+        return re.sub('(\\b[A-Za-z] \\b|\\b [A-Za-z]\\b)', '', text)
 
     @staticmethod
     def clean_stopword(list_of_words: List[str], language: str) -> List[str]:

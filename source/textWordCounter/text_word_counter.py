@@ -33,6 +33,7 @@ class TextWordCounter:
         data = file_service.read(file_path)
         data = TextCleaningService.remove_punctuations(data)
         data = TextCleaningService.remove_digits(data)
+        data = TextCleaningService.remove_single_letters(data)
         data = self._get_list_of_words_from_string(data)
         data = TextCleaningService.clean_stopword(data, language)
         data = self._get_count_of_words(data)

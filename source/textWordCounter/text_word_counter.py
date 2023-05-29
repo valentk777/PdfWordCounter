@@ -35,11 +35,20 @@ class TextWordCounter:
         data = TextCleaningService.remove_digits(data)
         data = TextCleaningService.remove_single_letters(data)
         data = self._get_list_of_words_from_string(data)
-        data = TextCleaningService.clean_stopword(data, language)
+        # data = TextCleaningService.clean_stopword(data, language)
+
+        self._save_temp_cleaned_file(data)
+
         data = self._get_count_of_words(data)
         data = TextCleaningService.clean_custom_word(data, words_to_remove_file_path)
 
         return data
+
+    def _save_temp_cleaned_file(self, data: List[str]) -> None:
+        print("save_temp_cleaned_file - started")
+
+        with open(r"data\temp_result.txt", "a", encoding="utf-8") as f:
+            f.write("\n".join(data))
 
     def _get_file_service(self, file_path: str) -> FileService or Exception:
         print("get_file_reader - started")

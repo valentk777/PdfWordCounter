@@ -25,13 +25,13 @@ class TestTextWordCounter(unittest.TestCase):
         counter = TextWordCounter()
         data = counter.get_words_count(PDF_FILE_PATH, LANGUAGE, WORDS_TO_REMOVE_FILE_PATH)
 
-        self.assertEqual(481, len(data), "incorrect number of unique word")
+        self.assertEqual(561, len(data), "incorrect number of unique word")
 
     def test_given_txt_when_getting_counter_with_cleanup_then_correct_number_of_unique_words_returned(self):
         counter = TextWordCounter()
         data = counter.get_words_count(TXT_FILE_PATH, LANGUAGE, WORDS_TO_REMOVE_FILE_PATH)
 
-        self.assertEqual(3, len(data), "incorrect number of unique word")
+        self.assertEqual(5, len(data), "incorrect number of unique word")
 
 
 if __name__ == '__main__':

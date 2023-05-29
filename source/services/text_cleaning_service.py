@@ -11,7 +11,7 @@ class TextCleaningService:
     def remove_punctuations(text: str) -> str:
         print("remove_punctuations - started")
 
-        custom_punctuations = "‘©–—â€¦•“\"'”"
+        custom_punctuations = "‘σï⇒»¿℃­ã­‒é©–—â€¦•“ϕ\"'”’¯"
         translating = str.maketrans('', '', string.punctuation + custom_punctuations)
 
         return text.translate(translating)

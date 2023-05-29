@@ -1,4 +1,3 @@
-
 account
 acm
 ahead
@@ -14,6 +13,7 @@ clock
 compound
 consensus
 craft
+curse
 delightful
 delightfully
 delights
@@ -22,6 +22,7 @@ disk
 doi
 empire
 et
+farewell
 farm
 faults
 fulfill

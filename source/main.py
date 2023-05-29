@@ -6,4 +6,11 @@ FILE_PATH = "data/conferences.txt"
 EXCEL_FILE_PATH = "result/result-conferences.xlsx"
 
 counter = TextWordCounter()
-counter.get_words_count_and_save_to_excel(FILE_PATH, EXCEL_FILE_PATH, LANGUAGE, TEXT_WORD_COUNTER)
+
+for _from, _to in [
+    ("data/conferences.txt", "result/result-conferences.xlsx"),
+    ("data/frankenstein.txt", "result/result-frankenstein.xlsx"),
+    ("data/rust.txt", "result/result-rust.xlsx"),
+    ("data/witcher.txt", "result/result-witcher.xlsx"),
+]:
+    counter.get_words_count_and_save_to_excel(_from, _to, LANGUAGE, TEXT_WORD_COUNTER)

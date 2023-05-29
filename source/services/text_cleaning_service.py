@@ -11,7 +11,7 @@ class TextCleaningService:
     def remove_punctuations(text: str) -> str:
         print("remove_punctuations - started")
 
-        custom_punctuations = "‘©–—â€¦"
+        custom_punctuations = "‘©–—â€¦•“\"'”"
         translating = str.maketrans('', '', string.punctuation + custom_punctuations)
 
         return text.translate(translating)
@@ -28,7 +28,10 @@ class TextCleaningService:
     def remove_single_letters(text: str) -> str:
         print("remove_single_letters - started")
 
-        return re.sub('(\\b[A-Za-z] \\b|\\b [A-Za-z]\\b)', '', text)
+        text = re.sub('(\\b[A-Za-z] \\b|\\b [A-Za-z]\\b)', '', text)
+        text = re.sub('(\\n[A-Za-z]{1}\\n)', '', text)
+
+        return text
 
     @staticmethod
     def clean_stopword(list_of_words: List[str], language: str) -> List[str]:
@@ -47,7 +50,7 @@ class TextCleaningService:
         if words_to_remove_file_path is None or not path.isfile(words_to_remove_file_path):
             return words_by_count
 
-        with open(words_to_remove_file_path) as f:
+        with open(words_to_remove_file_path, encoding="utf-8") as f:
             words_to_remove = f.readlines()
 
         for word in words_to_remove:

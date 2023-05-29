@@ -14,18 +14,16 @@ class TextWordCounter:
     def get_words_count_and_save_to_excel(self,
                                           file_path: str,
                                           excel_file_path: str,
-                                          language: str = "en",
                                           words_to_remove_file_path: str = None) -> None:
         print("get_words_count_and_save_to_excel - started")
 
-        data = self.get_words_count(file_path, language, words_to_remove_file_path)
+        data = self.get_words_count(file_path, words_to_remove_file_path)
         sheet_name = file_path.split("/")[-1]
 
         ExcelService.write(data, excel_file_path, sheet_name)
 
     def get_words_count(self,
                         file_path: str,
-                        language: str = "en",
                         words_to_remove_file_path: str = None) -> Dict[str, int]:
         print("get_words_count - started")
 
@@ -35,9 +33,8 @@ class TextWordCounter:
         data = TextCleaningService.remove_digits(data)
         data = TextCleaningService.remove_single_letters(data)
         data = self._get_list_of_words_from_string(data)
-        # data = TextCleaningService.clean_stopword(data, language)
 
-        self._save_temp_cleaned_file(data)
+        # self._save_temp_cleaned_file(data)
 
         data = self._get_count_of_words(data)
         data = TextCleaningService.clean_custom_word(data, words_to_remove_file_path)
@@ -52,7 +49,7 @@ class TextWordCounter:
 
     def _get_file_service(self, file_path: str) -> FileService or Exception:
         print("get_file_reader - started")
-        suffix = Path(file_path).suffix
+        suffix = Path(file_path, encoding="utf-8").suffix
 
         if suffix == ".pdf":
             return PdfService

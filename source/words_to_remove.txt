@@ -13,8 +13,10 @@ acceptance
 access
 according
 accordingly
+account
 accuracy
 accurate
+acm
 across
 act
 action
@@ -28,6 +30,7 @@ actually
 adapt
 adapters
 add
+added
 adding
 additional
 adhere
@@ -63,6 +66,7 @@ airfield
 airlock
 ak
 aks
+al
 aldona
 algo
 algorithm
@@ -71,6 +75,8 @@ alive
 all
 allornothing
 allow
+allowed
+allows
 ally
 almost
 alone
@@ -110,14 +116,17 @@ anymore
 anyone
 anything
 anywhere
+apache
 api
 app
 apparently
+appear
 appearance
 appeared
 applause
 application
 applications
+apply
 appoint
 approach
 approaches
@@ -193,6 +202,7 @@ bases
 basic
 basically
 bass
+batch
 bazillion
 bc
 bd
@@ -239,6 +249,7 @@ bias
 biases
 bidirectional
 big
+bigger
 binding
 biological
 bit
@@ -248,6 +259,7 @@ black
 blackboard
 blanking
 bloated
+block
 blocks
 blog
 blood
@@ -264,6 +276,7 @@ boom
 bored
 boss
 both
+bottom
 bought
 bound
 boundaries
@@ -286,6 +299,7 @@ british
 bro
 broken
 brother
+brought
 browse
 browsing
 brushstroke
@@ -326,6 +340,7 @@ cards
 care
 career
 careful
+cargo
 carpathias
 cars
 case
@@ -348,6 +363,7 @@ challenges
 champion
 chance
 change
+changed
 changes
 changing
 channeling
@@ -381,7 +397,10 @@ clearly
 clerval
 click
 client
+clients
 clipping
+clock
+clocks
 close
 cloth
 cloud
@@ -415,6 +434,7 @@ commits
 committed
 common
 commonplace
+communication
 community
 companies
 companion
@@ -436,18 +456,23 @@ composed
 comps
 computer
 computers
+computing
 comrades
 concept
 concepts
 conceptually
 concrete
+concurrency
+concurrent
 condemned
 conditions
 conference
 conferencing
 confidence
+configuration
 conflagration
 conflating
+conflict
 conformist
 congratulations
 connect
@@ -468,6 +493,7 @@ content
 contents
 context
 contexts
+continue
 continued
 continuous
 contract
@@ -477,6 +503,7 @@ convergence
 conversation
 conversing
 cool
+copy
 core
 corpse
 corpus
@@ -510,6 +537,7 @@ creative
 creativity
 creature
 credibly
+credit
 criteria
 criticizing
 crossbow
@@ -517,6 +545,7 @@ crosstalk
 crossy
 crown
 crud
+cucumber
 culture
 cultures
 curious
@@ -534,6 +563,8 @@ dangerous
 darling
 data
 database
+databases
+dataflow
 date
 dawson
 day
@@ -563,6 +594,7 @@ deep
 deeper
 defined
 definitely
+definition
 degree
 deliberation
 delight
@@ -616,6 +648,7 @@ different
 difficult
 digital
 dim
+direction
 directly
 disadvantage
 discovered
@@ -625,6 +658,7 @@ discussing
 discussion
 discussions
 disentangle
+disk
 disobey
 disruption
 dissolve
@@ -633,6 +667,7 @@ distill
 distillation
 distilled
 distilling
+distributed
 divergence
 diversions
 do
@@ -642,6 +677,7 @@ documentation
 documents
 does
 doesnt
+doi
 doing
 domain
 domaindriven
@@ -692,6 +728,7 @@ edits
 effect
 effective
 effectively
+efficient
 effort
 effortlessly
 efforts
@@ -708,9 +745,11 @@ else
 email
 emails
 embrace
+empire
 empires
 enable
 enchanting
+encoding
 encroaching
 end
 endeavoured
@@ -743,6 +782,7 @@ essence
 essential
 estimates
 estimation
+et
 etc
 europe
 european
@@ -763,6 +803,7 @@ everything
 everywhere
 evidence
 evidentiary
+evolution
 evrics
 exactly
 example
@@ -772,13 +813,17 @@ exceptions
 excerpts
 excuses
 execrate
+execution
 exercise
 exercises
+exist
 existent
 existing
 expand
 expect
+expected
 expecting
+expensive
 experience
 experiences
 expert
@@ -803,7 +848,12 @@ facebook
 fact
 facts
 fade
+fail
+failed
+failure
 fair
+fairly
+fall
 falsely
 fame
 family
@@ -814,6 +864,7 @@ fast
 faster
 fate
 father
+fault
 favorite
 fear
 feature
@@ -830,6 +881,7 @@ felt
 few
 feynman
 field
+fields
 fiend
 fight
 fighting
@@ -845,10 +897,13 @@ find
 finding
 fine
 finish
+fire
 first
 fishing
+fit
 five
 fix
+fixed
 flat
 flawless
 flaws
@@ -911,6 +966,8 @@ from
 front
 frost
 frothy
+fulfil
+fulfilled
 full
 fulltext
 fully
@@ -990,7 +1047,9 @@ grabbed
 grade
 gradual
 grant
+graph
 great
+greater
 greatest
 green
 greeted
@@ -1000,8 +1059,10 @@ gripping
 ground
 grounded
 group
+groups
 grows
 guarantee
+guarantees
 guess
 guessing
 guests
@@ -1020,6 +1081,7 @@ had
 half
 hammer
 hand
+handling
 hands
 handy
 happen
@@ -1030,8 +1092,10 @@ happiness
 happy
 hard
 hardly
+hardware
 harm
 has
+hash
 hasty
 hate
 haunt
@@ -1067,6 +1131,7 @@ hes
 hey
 hi
 high
+higher
 highlight
 highlighted
 highlighting
@@ -1087,6 +1152,7 @@ hold
 holding
 holy
 home
+homo
 honest
 honesty
 honeycomb
@@ -1170,6 +1236,8 @@ incrementing
 indeed
 indentation
 independent
+index
+indexes
 india
 individual
 industry
@@ -1177,6 +1245,7 @@ infer
 inflections
 information
 infuses
+ing
 ingredient
 initiate
 injured
@@ -1204,6 +1273,7 @@ interests
 interface
 intermediate
 intermixing
+international
 internet
 interrupted
 intervention
@@ -1219,6 +1289,7 @@ iris
 irremediable
 is
 isnt
+isolation
 issue
 issues
 it
@@ -1244,6 +1315,7 @@ job
 jobs
 jogged
 join
+joins
 journal
 journey
 joy
@@ -1251,6 +1323,7 @@ judge
 judgment
 jump
 jumped
+june
 just
 justine
 kafka
@@ -1259,6 +1332,7 @@ keep
 keeping
 kernel
 key
+keys
 kicked
 kickoff
 kid
@@ -1281,10 +1355,13 @@ knows
 labs
 ladder
 laden
+land
 language
 languages
 large
+larger
 last
+late
 latency
 later
 launch
@@ -1296,6 +1373,7 @@ layar
 layer
 layers
 lead
+leader
 learn
 learned
 learners
@@ -1312,6 +1390,7 @@ let
 lets
 letter
 level
+levels
 lexfridman
 li
 libraries
@@ -1328,7 +1407,9 @@ likely
 lilac
 lily
 limit
+limited
 line
+linearizability
 lines
 link
 list
@@ -1342,11 +1423,13 @@ lived
 liveness
 lives
 living
+load
 loaded
 local
 location
 lock
 locker
+locks
 log
 logged
 logic
@@ -1371,6 +1454,7 @@ loved
 lovely
 loving
 low
+lower
 lr
 luck
 lve
@@ -1399,6 +1483,8 @@ many
 man’death
 map
 mapping
+mapreduce
+march
 mark
 market
 master
@@ -1437,6 +1523,7 @@ mentioned
 merchant
 merger
 message
+messages
 messaging
 met
 metadata
@@ -1456,6 +1543,7 @@ minds
 mine
 mini
 mining
+minute
 minutes
 mirror
 miserable
@@ -1491,6 +1579,7 @@ mother
 mountain
 mountains
 move
+moved
 moving
 mp
 much
@@ -1529,6 +1618,7 @@ negative
 negromancy
 neighbors
 network
+networks
 neurosurgeons
 never
 new
@@ -1538,12 +1628,15 @@ nice
 night
 nine
 no
+nobody
 node
+nodes
 none
 nonverbal
 nor
 normalize
 normalizing
+north
 not
 note
 notebook
@@ -1556,6 +1649,7 @@ noticing
 nouns
 nourished
 novel
+november
 novograd
 now
 nsfw
@@ -1570,6 +1664,7 @@ objectively
 objects
 obscurity
 observer
+obvious
 obviously
 occupations
 occur
@@ -1598,6 +1693,7 @@ online
 onlooker
 only
 open
+operating
 operation
 operations
 ophthalmologist
@@ -1613,6 +1709,7 @@ options
 or
 oral
 order
+ordering
 oregon
 organization
 organizational
@@ -1626,6 +1723,7 @@ orthogonality
 oslo
 other
 others
+otherwise
 our
 ours
 ourselves
@@ -1668,7 +1766,9 @@ parse
 part
 participated
 particular
+particularly
 parties
+partitions
 partly
 partner
 partnership
@@ -1758,6 +1858,8 @@ politician
 polluted
 poor
 pop
+popular
+position
 positive
 possessed
 possibilities
@@ -1786,6 +1888,7 @@ presented
 presets
 pressed
 pretty
+prevent
 previous
 previously
 primary
@@ -1800,6 +1903,7 @@ problem
 problems
 process
 processes
+processing
 produce
 product
 production
@@ -1823,6 +1927,7 @@ property
 propose
 proposes
 protect
+protocol
 prototype
 prove
 provide
@@ -1844,6 +1949,7 @@ pvp
 python
 quality
 quantitative
+queries
 query
 querying
 question
@@ -1861,6 +1967,7 @@ raiding
 raids
 ran
 random
+range
 rankle
 rate
 rated
@@ -1869,6 +1976,7 @@ reach
 reactive
 read
 reading
+reads
 ready
 real
 reality
@@ -1877,6 +1985,7 @@ realize
 realized
 really
 reason
+reasons
 recall
 receive
 receiver
@@ -1885,6 +1994,7 @@ recess
 reckon
 recommend
 record
+records
 recycle
 recycler
 recycling
@@ -1907,6 +2017,7 @@ relationship
 relationships
 release
 relevant
+reliable
 relieve
 relieved
 religions
@@ -1917,6 +2028,7 @@ remembering
 remind
 remove
 repay
+replication
 represented
 request
 requests
@@ -1924,6 +2036,7 @@ require
 required
 requirement
 requirements
+requires
 res
 research
 resemble
@@ -1936,6 +2049,7 @@ resource
 resources
 respawn
 respected
+response
 responsibility
 responsible
 rest
@@ -1956,6 +2070,7 @@ reviews
 revision
 revisit
 reviving
+revolution
 revolutionize
 revolver
 reward
@@ -1967,6 +2082,7 @@ right
 rightsizing
 riot
 rippling
+risk
 ritual
 rivia
 road
@@ -1984,6 +2100,7 @@ root
 rotten
 round
 routine
+row
 rpc
 rule
 rules
@@ -2001,6 +2118,7 @@ saint
 salt
 same
 san
+sapiens
 satchels
 save
 saved
@@ -2023,7 +2141,9 @@ school
 schuster
 science
 scientific
+scientists
 scope
+scrap
 screen
 screenshot
 screw
@@ -2041,6 +2161,7 @@ secure
 securest
 security
 see
+seeing
 seem
 seemed
 seems
@@ -2053,10 +2174,13 @@ selfreplicating
 semantically
 send
 sense
+sent
 separate
+sequence
 series
 serve
 server
+servers
 service
 services
 session
@@ -2094,6 +2218,7 @@ shots
 should
 shouldnt
 show
+shows
 sick
 side
 sieve
@@ -2119,6 +2244,7 @@ skin
 sla
 sleep
 sliced
+slow
 slowly
 small
 smaller
@@ -2155,6 +2281,7 @@ soon
 sorry
 sort
 soul
+sound
 sounds
 soup
 source
@@ -2184,12 +2311,14 @@ sprawl
 spread
 sprint
 sprints
+sql
 squabbles
 square
 stables
 stack
 stacking
 stage
+standard
 star
 stars
 start
@@ -2213,9 +2342,11 @@ stone
 stop
 storage
 store
+stored
 stories
 storming
 story
+straight
 strange
 strategic
 strategy
@@ -2224,6 +2355,7 @@ string
 strong
 struck
 structure
+structures
 students
 studio
 study
@@ -2236,6 +2368,7 @@ subject
 subscribers
 subscribing
 subscriptions
+success
 successful
 successor
 such
@@ -2301,6 +2434,7 @@ tech
 technical
 technique
 techniques
+technologies
 technology
 teens
 tel
@@ -2320,6 +2454,7 @@ testably
 testing
 tests
 text
+th
 than
 thank
 thanks
@@ -2362,6 +2497,7 @@ thought
 thoughts
 thousand
 thousands
+threading
 three
 through
 thursday
@@ -2371,6 +2507,7 @@ tier
 time
 times
 timing
+tion
 tip
 to
 toad
@@ -2389,6 +2526,7 @@ top
 topics
 toplevel
 torch
+total
 totally
 tough
 toward
@@ -2407,6 +2545,7 @@ transistor
 trap
 treat
 tree
+trees
 triangle
 tried
 trio
@@ -2415,6 +2554,7 @@ trouble
 true
 truism
 truly
+trust
 truth
 try
 trying
@@ -2444,6 +2584,8 @@ understand
 understanding
 underwriting
 unfortunately
+unfulfilled
+unfulfilling
 unique
 uniqueness
 unit
@@ -2451,6 +2593,7 @@ units
 universe
 university
 unix
+unless
 unquenched
 unroll
 unsatisfied
@@ -2459,8 +2602,10 @@ untestable
 until
 unusable
 up
+update
 updates
 upgrade
+upon
 upstream
 urging
 url
@@ -2501,6 +2646,7 @@ vladimir
 voice
 void
 voltage
+volume
 von
 voyage
 voyager
@@ -2513,6 +2659,7 @@ walls
 wally
 want
 wanted
+wants
 war
 wards
 was
@@ -2551,6 +2698,7 @@ wheat
 when
 whenever
 where
+whereas
 wheres
 whether
 which
@@ -2574,6 +2722,7 @@ windows
 windy
 winters
 wip
+wipe
 wisdom
 wish
 wished
@@ -2593,6 +2742,7 @@ wooden
 word
 words
 work
+workbench
 worked
 working
 works
@@ -2605,6 +2755,7 @@ wouldnt
 wow
 write
 writer
+writes
 writing
 written
 wrong

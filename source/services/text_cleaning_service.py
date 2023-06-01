@@ -3,6 +3,7 @@ import string
 from os import path
 from typing import List, Dict
 
+import enchant
 from stopwords import clean
 
 
@@ -28,8 +29,8 @@ class TextCleaningService:
     def remove_single_letters(text: str) -> str:
         print("remove_single_letters - started")
 
-        text = re.sub('(\\b[A-Za-z] \\b|\\b [A-Za-z]\\b)', '', text)
-        text = re.sub('(\\n[A-Za-z]{1}\\n)', '', text)
+        text = re.sub(r'(\b[A-Za-z] \b|\b [A-Za-z]\b)', '', text)
+        text = re.sub(r'^[A-Za-z]\n', '\n', text, flags=re.MULTILINE)
 
         return text
 
@@ -59,3 +60,17 @@ class TextCleaningService:
         print(f"number of words unique words after all clean ups: {len(words_by_count)}")
 
         return words_by_count
+
+    @staticmethod
+    def remove_all_non_english_words(list_of_words: List[str], language: str):
+        updated = []
+        us_dict = enchant.Dict("en_US")
+        gb_dict = enchant.Dict("en_GB")
+
+        for word in list_of_words:
+            if us_dict.check(word.strip()):
+                updated.append(word)
+            elif gb_dict.check(word.strip()):
+                updated.append(word)
+
+        return updated

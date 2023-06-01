@@ -9,21 +9,25 @@ from source.services.pdf_service import PdfService
 from source.services.text_cleaning_service import TextCleaningService
 from source.services.txt_service import TxtService
 
+LANGUAGE = "en_US"
+
 
 class TextWordCounter:
     def get_words_count_and_save_to_excel(self,
                                           file_path: str,
                                           excel_file_path: str,
+                                          only_english: bool,
                                           words_to_remove_file_path: str = None) -> None:
         print("get_words_count_and_save_to_excel - started")
 
-        data = self.get_words_count(file_path, words_to_remove_file_path)
+        data = self.get_words_count(file_path, only_english, words_to_remove_file_path)
         sheet_name = file_path.split("/")[-1]
 
         ExcelService.write(data, excel_file_path, sheet_name)
 
     def get_words_count(self,
                         file_path: str,
+                        only_english: bool,
                         words_to_remove_file_path: str = None) -> Dict[str, int]:
         print("get_words_count - started")
 
@@ -34,7 +38,10 @@ class TextWordCounter:
         data = TextCleaningService.remove_single_letters(data)
         data = self._get_list_of_words_from_string(data)
 
-        # self._save_temp_cleaned_file(data)
+        if only_english:
+            data = TextCleaningService.remove_all_non_english_words(data, LANGUAGE)
+
+            self._save_temp_cleaned_file(data)
 
         data = self._get_count_of_words(data)
         data = TextCleaningService.clean_custom_word(data, words_to_remove_file_path)
@@ -66,7 +73,7 @@ class TextWordCounter:
 
         print(f"number of words in a book: {len(list_of_words)}")
 
-        return text.lower().split()
+        return list_of_words
 
     def _get_count_of_words(self, text: List[str]) -> Dict[str, int]:
         print("get_count_of_words - started")

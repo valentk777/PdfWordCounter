@@ -3,3 +3,6 @@ typing~=3.7.4.3
 openpyxl==3.1.2
 PyMuPDF==1.22.3
 pandas==2.0.1
+PyQt5==5.15.9
+pyenchant==3.2.2
+pathlib==1.0.1

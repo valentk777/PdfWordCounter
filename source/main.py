@@ -35,6 +35,7 @@ def convert_all_joined():
         # ("data/frankenstein.txt", "result/result-frankenstein.xlsx"),
         # ("data/sapiens.txt", "result/result-sapiens.xlsx"),
         # ("data/witcher.txt", "result/result-witcher.xlsx"),
+        # ("data/Haruki Murakami - Norwegian Wood.pdf", "result/result-witcher.xlsx"),
 
         ("data/all_joined.txt", "result/result-all_joined.xlsx"),
     ]:
@@ -49,6 +50,6 @@ def convert_all_joined():
 
 
 if __name__ == "__main__":
-    clean_all_joined()
+    # clean_all_joined()
     # convert_not_cleaned()
-    # convert_all_joined()
+    convert_all_joined()
